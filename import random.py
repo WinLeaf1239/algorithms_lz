@@ -16,7 +16,7 @@ for i in range(100) :
 print(np)
 
 for i in range(100):
-    min = 0 #1элемент - минимальный
+    min = 0 
     for j in range(100-i): 
         if l2[j] > l2[min] : #Находит меньше и ставит правее
             min = j  
